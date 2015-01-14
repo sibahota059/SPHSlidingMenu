@@ -70,7 +70,7 @@
             self.menutableView.frame = CGRectMake(self.menutableView.frame.origin.x,20, width, height);
             self.menutableView.alpha = 1;
             backGroundImage.frame = CGRectMake(0, 0, width, height);
-            backGroundImage.alpha = 1;
+            backGroundImage.alpha = 0.65;
         } completion:^(BOOL finished) {
             
         }];
@@ -188,12 +188,13 @@
     self.view.backgroundColor = BACKGROUND_COLOR;
     
     screenShotImage = [sender.view screenshot];
-    blurredImage = [screenShotImage blurredImageWithRadius:10.0f iterations:5  tintColor:[UIColor blackColor]];
+    blurredImage = [[UIImage imageNamed:@"backGround.jpg"] blurredImageWithRadius:10.0f iterations:5  tintColor:nil];
     backGroundImage = [[UIImageView alloc]initWithImage:blurredImage];
     backGroundImage.frame = CGRectMake(width,0, width, height);
     backGroundImage.alpha = 0;
     [self.view addSubview:backGroundImage];
     
+    [self.view bringSubviewToFront:self.menutableView];
     [self.menutableView setBackgroundColor:[UIColor clearColor]];
     [self.menutableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     [self.menutableView setShowsVerticalScrollIndicator:NO];

@@ -26,6 +26,7 @@
 		BA476A871A66821D0043D7AE /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA476A851A66821D0043D7AE /* MenuViewController.m */; };
 		BA476A881A66821D0043D7AE /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA476A861A66821D0043D7AE /* MenuViewController.xib */; };
 		BA476A8A1A6686D50043D7AE /* ProfilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = BA476A891A6686D50043D7AE /* ProfilePic.png */; };
+		BA476A8C1A668FE50043D7AE /* Bluebox.png in Resources */ = {isa = PBXBuildFile; fileRef = BA476A8B1A668FE50043D7AE /* Bluebox.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		BA476A851A66821D0043D7AE /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Demo/MenuViewController.m; sourceTree = SOURCE_ROOT; };
 		BA476A861A66821D0043D7AE /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewController.xib; path = Demo/MenuViewController.xib; sourceTree = SOURCE_ROOT; };
 		BA476A891A6686D50043D7AE /* ProfilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfilePic.png; sourceTree = "<group>"; };
+		BA476A8B1A668FE50043D7AE /* Bluebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bluebox.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		BA476A731A6682070043D7AE /* iMages */ = {
 			isa = PBXGroup;
 			children = (
+				BA476A8B1A668FE50043D7AE /* Bluebox.png */,
 				BA476A891A6686D50043D7AE /* ProfilePic.png */,
 				BA476A741A6682070043D7AE /* backGround.jpg */,
 				BA476A751A6682070043D7AE /* icon1.png */,
@@ -263,6 +266,7 @@
 				BA476A7F1A6682070043D7AE /* icon3.png in Resources */,
 				BA476A711A6680760043D7AE /* ViewController.xib in Resources */,
 				BA476A881A66821D0043D7AE /* MenuViewController.xib in Resources */,
+				BA476A8C1A668FE50043D7AE /* Bluebox.png in Resources */,
 				BA476A7D1A6682070043D7AE /* icon1.png in Resources */,
 				BA476A3B1A6675480043D7AE /* Images.xcassets in Resources */,
 				BA476A7E1A6682070043D7AE /* icon2.png in Resources */,
@@ -470,6 +474,7 @@
 				BA476A4F1A6675490043D7AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA476A501A6675490043D7AE /* Build configuration list for PBXNativeTarget "SlidingDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				BA476A521A6675490043D7AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
